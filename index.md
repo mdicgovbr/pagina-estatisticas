@@ -1,3 +1,13 @@
+---
+published: true
+permalink: /
+layout: slate
+filename: index.md
+title: Estatísticas do Comércio Exterior de Serviços
+desc: Estatísticas do Comércio Exterior de Serviços.
+---
+
+
 # Estatísticas do Comércio Exterior de Serviços - 2017
 
 Dando continuidade ao compromisso de disponibilizar informações e estatísticas sobre o comércio exterior de serviços, a Secretaria de Comércio e Serviços do Ministério da Indústria, Comércio Exterior e Serviços (SCS/MDIC) divulga os dados relativos ao ano de 2017. Com o propósito de facilitar o entendimento sobre os dados, a SCS apresenta abaixo um novo formato de publicação em 2017. Uma configuração mais intuitiva, que permite a compreensão mais simples dos dados produzidos a partir do Siscoserv.

@@ -1,0 +1,94 @@
+ <!-- FOOTER -->
+<div id="footer_wrap" name="footer" class="outer">
+<footer class="inner">
+<div class="rodape coluna1">
+	<h4 class="title">Sobre Dados Abertos</h4>
+	<ul class="menu">
+		<li>
+			<a href="http://dados.gov.br/pagina/dados-abertos/">O que são dados abertos?</a>
+		</li>
+		<li>
+			<a href="http://dados.gov.br/">Portal Brasileiro de Dados Abertos</a>
+		</li>
+		<li>
+			<a href="https://opendatabarometer.org/4thedition/detail-country/?indicator=ODB&detail=BRA">Open Data Barometer</a>
+		</li>
+		<li>
+			<a href="http://dados.gov.br/organization/ministerio-do-planejamento-desenvolvimento-e-gestao-mp"> Os dados já abertos pelo MP</a>
+		</li>
+		<li>
+			<a href="http://wiki.dados.gov.br/Default.aspx?Page=Plano-de-Dados-Abertos&NavPath=Principais%20t%c3%b3picos#MINIST%C3%89RIO_DO_PLANEJAMENTO_DESENVOLVIMENTO_E_GEST%C3%83O_MP_79">PDAs Anteriores</a>
+		</li>
+	</ul>
+</div>
+<div class="rodape coluna2">
+	<h4 class="title">Materiais de apoio</h4>
+	<ul class="menu">
+		<li>
+			<a href="http://kit.dados.gov.br/">Kit de Dados Abertos</a>
+		</li>
+		<li>
+			<a href="http://opendatahandbook.org/guide/pt_BR/">Guia de Dados Abertos</a>
+		</li>
+		<li>
+			<a href="http://wiki.dados.gov.br/">Wiki da INDA</a>
+		</li>
+	</ul>
+</div>
+<div class="rodape coluna3">
+	<h4 class="title">Mais</h4>
+	<ul class="menu">
+		<li>
+			<a href="http://planejamento.gov.br/">Ministério do Planejamento</a>
+		</li>
+		<li>
+			<a href="http://www.planejamento.gov.br/ouvidoria/">Ouvidoria do MP</a>
+		</li>
+		<li>
+			<a href="http://acessoainformacao.gov.br/">Lei de Acesso à Informação</a>
+		</li>
+		<li>
+			<a href="http://transparencia.gov.br/">Portal da Transparência Federal</a>
+		</li>
+	</ul>
+</div>
+
+<!--
+Utilizando Tema Slate, créditos: Jason Costello
+<p class="copyright">Slate theme maintained by <a href="https://github.com/jsncostello">Jason Costello</a></p>
+<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+<p><a href="http://tholman.com/github-corners/">Github corner icon</a> by Tim Holman</p>
+-->
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</footer>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    jQuery('p:contains("[TOC]")').html('').before('<div id="toc"></div>');
+    
+    $(document.links).filter(function() {
+        return this.hostname != window.location.hostname;
+    }).attr('target', '_blank');
+
+    jQuery('#toc').toc({ listType: 'ul', showEffect: 'fadeIn',  minimumHeaders: 0 });
+
+    jQuery('#toc').find("li").first().remove();
+    jQuery('#toc').find("li").first().remove();
+
+/*    
+   if (window.location.href.indexOf('#') == 0) {
+    let hash = encodeURIComponent(window.location.href.split('#')[1]);
+    let hashTop = document.querySelector(`#${hash}`).offsetTop;
+    window.scrollTop = hashTop;
+   }
+*/
+    anchors.options.placement='right';
+    anchors.add('h1, h2, h3, h4, h5, h6').remove('#site_logo');
+
+});
+</script>
+<script defer async src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
+<script type="text/javascript" src="{{ site.baseurl }}public/js/scripts.js"></script>
+</body>
+</html>
