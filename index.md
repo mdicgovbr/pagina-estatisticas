@@ -7,7 +7,7 @@ title: Estatísticas do Comércio Exterior de Serviços
 desc: Estatísticas do Comércio Exterior de Serviços.
 ---
 
-# **Estatísticas do Comércio Exterior de Serviços - 2017**
+# **Estatísticas do Comércio Exterior de Serviços em 2017**
 
 [TOC]
 

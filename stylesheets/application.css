@@ -1536,7 +1536,7 @@ body {
     background-image: radial-gradient(ellipse at center, #1074BC 1%, #34378F 100%);
     color: #fff;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1074BC", endColorstr="#34378F", GradientType=1);
-    background: radial-gradient(683.00px at 50% 50%, #0C4A9D 0%, #092F62 100%);
+    background: radial-gradient(683.00px at 50% 50%, #0C9D18 0%, #0D5D27 100%);
     box-shadow: 0px 3.6742px 3.6742px rgba(0, 0, 0, 0.25);
 }
     body > header.masthead > .container {
@@ -2221,7 +2221,7 @@ body.no-sidebar .row .content-outer {
     padding: 0;
     margin: 0;
     text-align: right;
-    background: #09316773;
+    background: #1f670980;
 }
 
 #menu-de-navegacao li {
