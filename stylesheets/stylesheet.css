@@ -51,7 +51,7 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #2158a7;
+  background: #23a132;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -407,7 +407,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-    background: #2158a7;
+    background: #23a132;
 }
 
 /*******************************************************************************
@@ -512,7 +512,7 @@ h1:hover a.anchorjs-link, h2:hover a.anchorjs-link, h3:hover a.anchorjs-link, h4
   display: inline-block;
   line-height: 28px;
   right: 0;
-  top: 45px;
+  top: -70px;
   z-index: 1;
 }
 
