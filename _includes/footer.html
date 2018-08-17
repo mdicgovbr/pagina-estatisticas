@@ -73,6 +73,7 @@ jQuery(document).ready(function() {
 
     jQuery('#toc').toc({ listType: 'ul', showEffect: 'fadeIn',  minimumHeaders: 0 });
 
+    // remove o 1º item do TOC, que na verdade é o título do cabeçalho do portal
     jQuery('#toc').find("li").first().remove();
     jQuery('#toc').find("li").first().remove();
 
