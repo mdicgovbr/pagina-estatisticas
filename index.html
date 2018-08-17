@@ -1,0 +1,401 @@
+<html class="no-js" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]--><!--[if (gte IE 9)|!(IE)]><!--> <!--<![endif]-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas do Comércio Exterior de Serviços</title>
+    <meta name="description" content="Estatísticas do Comércio Exterior de Serviços.">
+    <link rel="shortcut icon" type="image/png" href="~/../public/img/favicon.png"/>
+    
+    <link rel="stylesheet" href="/stylesheets/green.min.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/stylesheets/stylesheet.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/public/js/toc.js"></script>
+    <script type="text/javascript" src="/public/js/anchor.min.js"></script>
+    <script type="text/javascript" src="/public/js/pdfmake.min.js"></script>
+    <script type="text/javascript" src="/public/js/vfs_fonts.js"></script>
+
+</head>
+
+<body class="index              DadosGovBrHomeController              False   ">
+    <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;"> 
+	    <ul id="menu-barra-temp" style="list-style:none;">
+		    <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED"><a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a></li> 
+		    <li><a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://barra.governoeletronico.gov.br/atualize.html">Atualize sua Barra de Governo</a></li>
+	    </ul>
+    </div>
+    <header class="masthead">
+        
+        <div class="container">
+                <ul id="accessibility">
+					<li>
+						<a id="link-conteudo" href="#main_content" accesskey="1">
+							Ir para o conteúdo
+							<span>1</span>
+						</a>
+					</li>
+					<!-- layout está sem menu
+					<li>
+						<a id="link-navegacao" href="#menu-horizontal" accesskey="2">
+							Ir para o menu
+							<span>2</span>
+						</a>
+					</li>
+					-->
+					<li>
+						<a id="link-rodape" href="#footer_wrap" accesskey="4">
+							Ir para o rodapé
+							<span>4</span>
+						</a>
+					</li>
+				</ul>
+            <div id="zoom">
+              <a href="http://dados.gov.br/#" onclick="resizeText(1)">A+</a>
+              <a href="http://dados.gov.br/#" onclick="resizeText(-1)">A-</a>
+            </div>
+            <h1 id="site_logo">
+                <a href="/">
+                    <span id="portal-type"></span>
+                    <span id="portal-title">Estatísticas e Indicadores</span>
+                    <span id="portal-description">do Comércio Exterior de Serviços Brasileiro</span>
+                </a>
+            </h1>
+		<ul id="portal-siteactions">
+		    <li>
+			<a href="#" title="Alto Contraste" accesskey="6" id="high-contrast">Alto Contraste</a>
+		    </li>
+		</ul>
+              <!--<ul id="news">
+
+                  <li id="feed"><a rel="feed" href="http://www.planejamento.gov.br/noticias/ultimas-noticias/RSS" title="Feed de notícias do Ministério do Planejamento" class="hs-rss-link">feed</a></li>
+                  <li id="twitter"><a href="https://twitter.com/planejamentobr" target="_blank" title="Microblog no Twitter">twitter</a></li>
+                  <li id="github"><a href="https://github.com/planejamentoGovBr/PDA-institucional-MP" target="_blank" title="Código fonte do Plano de Dados Abertos do Ministério do Planejamento no Github">Código fonte do Plano de Dados Abertos do Ministério do Planejamento no Github</a></li>
+              </ul>-->
+		<ul id="menu-de-navegacao" class="menu">
+		<li><a href="http://mdic.gov.br/" target="_blank">O Ministério da Indústria, Comércio Exterior e Serviços</a></li>
+		<li><a href="http://dados.gov.br/organization/ministerio-da-industria-comercio-exterior-e-servicos-mdic" target="_blank">Dados Abertos do MDIC</a></li>
+	</ul>
+        </div>
+    </header>
+            
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+<!--
+            <a href="https://github.com/dadosgovbr/kit/blob/master/index.md" class="github-corner" aria-label="Ver a origem desta página no Github" title="Ver a origem desta página no Github"><svg width="60" height="60" viewBox="0 0 250 250" style="fill:#025310; color:#f2f2f2; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+-->
+            <h1 id="estatísticas-do-comércio-exterior-de-serviços-em-2017"><strong>Estatísticas do Comércio Exterior de Serviços em 2017</strong></h1>
+
+<p>[TOC]</p>
+
+<hr />
+
+<p>Dando continuidade ao compromisso de disponibilizar informações e estatísticas sobre o comércio exterior de serviços, a Secretaria de Comércio e Serviços do Ministério da Indústria, Comércio Exterior e Serviços (SCS/MDIC) divulga os dados relativos ao ano de 2017. Com o propósito de facilitar o entendimento sobre os dados, a SCS apresenta abaixo um novo formato de publicação em 2017. Uma configuração mais intuitiva, que permite a compreensão mais simples dos dados produzidos a partir do Siscoserv.</p>
+
+<hr />
+
+<h1 id="valores-totais-do-comércio-exterior-de-serviços-do-brasil">Valores Totais do Comércio Exterior de Serviços do Brasil</h1>
+
+<p>Destaca-se abaixo os valores de vendas (exportações) e aquisições (importações) de serviços em 2017, incluindo as quantidades totais de vendedores e adquirentes, o número de registros realizados e de operações cadastradas e, principalmente, dos valores totais das operações de venda e aquisição realizadas no ano.</p>
+
+<p><strong>Venda</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Números</th>
+      <th style="text-align: right">Valores totais</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Qtd de Vendedores</td>
+      <td style="text-align: right">11.864</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Qtd de Registros de Venda de Serviços (RVS)</td>
+      <td style="text-align: right">2.681.403</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Qtd de Operações</td>
+      <td style="text-align: right">3.508.710</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Valor Transacionado em dólares (USD)</td>
+      <td style="text-align: right"><strong>USD$ 29.838.916.917,40</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Aquisição</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Números</th>
+      <th style="text-align: right">Valores totais</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Qtd de Adquirentes</td>
+      <td style="text-align: right">18.846</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Qtd de Registros de Aquisição de Serviços (RAS)</td>
+      <td style="text-align: right">1.950.776</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Qtd de Operações</td>
+      <td style="text-align: right">2.265.383</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Valor Transacionado em dólares (USD)</td>
+      <td style="text-align: right"><strong>USD$ 242.889.840.314,15</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="quantitativos-detalhados-sobre-os-serviços-vendidos-e-adquiridos-pelo-brasil">Quantitativos detalhados sobre os Serviços vendidos e adquiridos pelo Brasil</h1>
+
+<p>Os quantitativos detalhados por serviços vendidos (exportados) e por serviços adquiridos (importados) em 2017 estão disponíveis em formato de tabela e XML e foram gerados a partir do Siscoserv. As operações estão classificadas por <strong>posição</strong> e por <strong>subitem</strong> da Nomenclatura Brasileira de Serviços, Intagíveis e Outras Operações que Produzam Variações no Patrimônio - NBS.</p>
+
+<ul>
+  <li><strong>Por Posição</strong> em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/POSI%C3%87%C3%83O/Publica%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_SERVI%C3%87OS_POSI%C3%87%C3%83O.xlsx">XLSX</a> e em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/POSI%C3%87%C3%83O_-_XML/Publica%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_SERVI%C3%87OS_POSI%C3%87%C3%83O.xml">XML</a></li>
+  <li><strong>Por Subiten</strong> em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/SUBITEM_/Publica%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_SERVI%C3%87OS_2017_SUBITEM.xlsx">XLSX</a> e em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/SUBITEM_-_XML/Publica%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_SERVI%C3%87OS_2017_SUBITEM.xml">XML</a></li>
+</ul>
+
+<h1 id="quantitativos-detalhados-pelos-parceiros-comerciais-países-do-brasil">Quantitativos detalhados pelos Parceiros Comerciais (Países) do Brasil</h1>
+
+<p>Os parceiros comerciais são aqueles países que realizaram operações de venda ou aquisição de serviços e intagíveis com o Brasil. Além da relação dos países e seus respectivos valores transacionados no ano em pauta, estas tabelas também apresentam o cruzamento entre os dados dos países e dos serviços que foram comercializados entre o Brasil e esses parceiros comerciais.</p>
+
+<ul>
+  <li><strong>Por Posição</strong> em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/POSI%C3%87%C3%83O/Publica%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_Pa%C3%ADses_Servi%C3%A7os_Posi%C3%A7%C3%A3o.xlsx">XLSX</a> e em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/POSI%C3%87%C3%83O_-_XML/Publica%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_Pa%C3%ADses_Servi%C3%A7os_Posi%C3%A7%C3%A3o.xml">XML</a></li>
+  <li><strong>Por Subiten</strong> em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/SUBITEM_/Publica%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_Pa%C3%ADses_Servi%C3%A7ios_2017_SUBITEM.xlsx">XLSX</a> e em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/SUBITEM_-_XML/Publica%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_Pa%C3%ADses_Servi%C3%A7ios_2017_SUBITEM.xml">XML</a></li>
+</ul>
+
+<h1 id="quantitativos-por-unidade-da-federação---uf">Quantitativos por Unidade da Federação - UF</h1>
+
+<p>A seguir estão disponíveis quantitativos organizados por UF, Páis destino, por Posição e por Subitem da NBS, organizados por Vendas e Aquisições.</p>
+
+<ul>
+  <li><strong>Por Posição</strong> em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/POSI%C3%87%C3%83O/Publica%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_UF_Servi%C3%A7os_Posi%C3%A7%C3%A3o.xlsx">XLSX</a> e em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/POSI%C3%87%C3%83O_-_XML/Publica%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_UF_Servi%C3%A7os_Posi%C3%A7%C3%A3o.xml">XML</a></li>
+  <li><strong>Por Subiten</strong> em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/SUBITEM_/Publica%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_UF_Servi%C3%A7os_2017_SUBITEM.xlsx">XLSX</a> e em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/SUBITEM_-_XML/Publica%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_UF_Servi%C3%A7os_2017_SUBITEM.xml">XML</a></li>
+</ul>
+
+<h1 id="quantitativos-por-modo-de-prestação">Quantitativos por Modo de Prestação</h1>
+
+<p>Conforme estabelecido no <a href="http://www.mdic.gov.br/comercio-exterior/negociacoes-internacionais/1885-omc-acordos-da-omc">Acordo Geral sobre Comércio de Serviços da OMC (GATS)</a>, os dados estão organizados pelo Modos: <strong>Comércio Transfronteiriço</strong> (Modo 1), <strong>Consumo no Brasil ou no exterior</strong> (Modo 2), de <strong>Presença comercial no exterior</strong> (Modo 3) e de <strong>Movimento temporário de pessoas físicas</strong> (Modo 4).</p>
+
+<p>Como o Modo 3 - <strong>Presença Comercial no Exterior</strong> é um registro especial dentro do Siscoserv e o prazo para o seu registro é distinto dos demais modos de prestação, sua divulgação ocorre em separado.</p>
+
+<p><strong>Venda</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Modo de Prestação</th>
+      <th>Total em dólares (USD)</th>
+      <th>Qtd de Vendedores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Modo 1 - Comércio Transfronteiriço</td>
+      <td>24.086.837.084,88</td>
+      <td>8.296</td>
+    </tr>
+    <tr>
+      <td>Modo 2 - Consumo no Brasil</td>
+      <td>5.454.896.815,28</td>
+      <td>4.194</td>
+    </tr>
+    <tr>
+      <td>Modo 4 - Movimento temporário de pessoas físicas</td>
+      <td>297.183.017,24</td>
+      <td>875</td>
+    </tr>
+    <tr>
+      <td>TOTAL</td>
+      <td>29.838.916.917,40</td>
+      <td>11.864</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Aquisição</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Modo de prestação</th>
+      <th>Total em dólares (USD)</th>
+      <th>Qtd de Adquirentes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Modo 1 - Comércio Transfronteiriço</td>
+      <td>29.641.026.913,32</td>
+      <td>17.473</td>
+    </tr>
+    <tr>
+      <td>Modo 2 - Consumo no Exterior</td>
+      <td>11.085.333.862,61</td>
+      <td>3.452</td>
+    </tr>
+    <tr>
+      <td>Modo 4 - Movimento temporário de pessoas físicas</td>
+      <td>2.163.479.538,22</td>
+      <td>1.483</td>
+    </tr>
+    <tr>
+      <td>TOTAL</td>
+      <td>42.889.840.314,15</td>
+      <td>18.846</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="dados-consolidados">Dados Consolidados</h1>
+
+<p>Os dados consolidados de Vendas e Aquisições são disponibilizados em forma de planilhas e apresentam com mais detalhes os aspectos mais relevantes do comércio exterior de serviços brasileiro coletados a partir do Siscoserv, classificados por posição e por subitem da NBS. <strong>Estes arquivos consolidam as informações publicadas nos itens acima</strong>.</p>
+
+<ul>
+  <li>
+    <p><strong>Por Posição</strong> em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/CONSOLIDADOS/Divulga%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_2017_POSI%C3%87%C3%83O.xlsx">XLSX</a> e em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/CONSOLIDADOS/Divulga%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_2017_POSI%C3%87%C3%83O.xml">XML</a></p>
+  </li>
+  <li>
+    <p><strong>Por Subiten</strong> em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/CONSOLIDADOS/Divulga%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_2017_SUBITEM.xlsx">XLSX</a> e em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/CONSOLIDADOS/Divulga%C3%A7%C3%A3o_Servi%C3%A7os_Venda_Aquisi%C3%A7%C3%A3o_2017_SUBITEM.xml">XML</a></p>
+  </li>
+  <li>
+    <p><strong>Lista de Empresas por Faixa de valores</strong> em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/CONSOLIDADOS/Consolidado_EmpresasPorFaixa_2017.xlsx">XLSX</a> e em formato <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/CONSOLIDADOS/Consolidado_EmpresasPorFaixa_2017.xml">XML</a></p>
+  </li>
+</ul>
+
+<h2 id="notas-metodológicas">Notas Metodológicas</h2>
+
+<p>O Siscoserv tem por objetivo contribuir para o mapeamento do comércio exterior de serviços brasileiro, seus atores e particularidades, possibilitando, assim, o aprimoramento de ações de estímulo, formulação, acompanhamento e aferição das políticas públicas relacionadas ao setor, bem como o subsídio às negociações de acordos internacionais. O sistema prioriza o fluxo comercial ao fluxo financeiro e, por isso, captura detalhes da prestação de serviços que fogem aos demais instrumentos, como se observa nas <a href="http://www.mdic.gov.br/images/REPOSITORIO/scs/decin/Estat%C3%ADsticas_de_Com%C3%A9rcio_Exterior/2017/nota_metodol%C3%B3gica/Notas_Metodol%C3%B3gicas.docx">Notas Metodológicas</a>.</p>
+
+<p>O modo de prestação do serviço, conforme previsto pela Organização Mundial do Comércio (OMC), contribui para que se possa compreender os modelos de negócio adotados pelas empresas brasileiras e é aspecto determinante nas negociações internacionais. As datas de início e conclusão dos serviços, por sua vez, auxiliam a caracterizar as relações comerciais entre os países. A própria identificação dos atores relevantes deste comércio pelo Governo passou a ser possível. As notas metodológicas, que acompanham a divulgação, contribuem para a compreensão das especificidades dos dados do Siscoserv.</p>
+
+<h1 id="considerações-finais">Considerações Finais</h1>
+
+<p>O Panorama do Comércio Internacional de Serviços e os Perfis dos Négocios Bilaterais em Serviços 2017, assim como os dados de Presença Comercial no Exterior, serão lançados em breve.</p>
+
+<p>Por fim, cabe destacar que a Secretaria desenvolveu um painel de dados estatísticos, para dinamizar a apresentação dos dados colhidos pelo Siscoserv, o <a href="http://www.mdic.gov.br/index.php/comercio-servicos/estatisticas-do-comercio-exterior-de-servicos/2472-siscoservdash">Siscoserv Dash</a>.</p>
+
+<p>A Secretaria de Comércio e Serviços visa, cada vez mais, trabalhar articuladamente com o setor privado e com os demais órgãos da Administração Pública para contribuir com a alavancagem do comércio exterior de serviços.</p>
+
+<p>Pedidos de informação, sugestões de aprimoramento e dúvidas sobre as estatísticas do Siscoserv podem ser encaminhados para estatistica.siscoserv@mdic.gov.br.</p>
+
+        </section>
+        <div id="download-btn" class="inner">
+
+            <a href="#" class="download_as_pdf download_as_pdf--header"><img src="http://plano.dados.cultura.gov.br/wp-content/themes/wp-divi-pda/assets/img/pdf-icon.png"><span class="texto-link-pdf">Baixar como PDF</span></a>
+        </div>
+
+    </div>
+      
+ <!-- FOOTER -->
+<div id="footer_wrap" name="footer" class="outer">
+<footer class="inner">
+<div class="rodape coluna1">
+	<h4 class="title">A SCS</h4>
+	<ul class="menu">
+		<li>
+			<a href="http://www.mdic.gov.br/index.php/comercio-servicos/a-secretaria-de-comercio-e-servicos-scs">A Secretaria de Comércio e Serviços</a>
+		</li>
+		<li>
+			<a href="http://www.mdic.gov.br/index.php/comercio-servicos/a-secretaria-de-comercio-e-servicos-scs-5">Atlas Nacional de Comércio e Serviços</a>
+		</li>
+		<li>
+			<a href="http://www.mdic.gov.br/index.php/comercio-servicos/a-secretaria-de-comercio-e-servicos-scs-6">Calendário Brasileiro de Exposições e Feiras</a>
+		</li>
+		<li>
+			<a href="http://www.mdic.gov.br/index.php/comercio-servicos/a-secretaria-de-comercio-e-servicos-scs-12">Informativos</a>
+		</li>
+		<li>
+			<a href="#">Estudos e Publicações</a>
+		</li>
+	</ul>
+</div>
+<div class="rodape coluna2">
+	<h4 class="title">O SISCOSERV</h4>
+	<ul class="menu">
+		<li>
+			<a href="http://www.mdic.gov.br/index.php/comercio-servicos/a-secretaria-de-comercio-e-servicos-scs-15">Sobre o Sistema</a>
+		</li>
+		<li>
+			<a href="http://opendatahandbook.org/guide/pt_BR/">Manuais de Utilização</a>
+		</li>
+		<li>
+			<a href="http://www.mdic.gov.br/index.php/comercio-servicos/a-secretaria-de-comercio-e-servicos-scs-15/estatisticas-6">Perguntas Frequentes - FAQ</a>
+		</li>
+		<li>
+			<a href="http://www.mdic.gov.br/index.php/comercio-servicos/a-secretaria-de-comercio-e-servicos-scs-15/estatisticas-4">Medidas Legais e Administrativas</a>
+		</li>
+	</ul>
+</div>
+<div class="rodape coluna3">
+	<h4 class="title">Mais</h4>
+	<ul class="menu">
+		<li>
+			<a href="http://www.mdic.gov.br/index.php/comercio-servicos/a-secretaria-de-comercio-e-servicos-scs-13">A Nomenclatura NBS</a>
+		</li>
+		<li>
+			<a href="http://www.mdic.gov.br/portal/dashboard.html">Siscoserv Dash</a>
+		</li>
+		<li>
+			<a href="http://www.mdic.gov.br/index.php/comercio-servicos/a-secretaria-de-comercio-e-servicos-scs-8">Estatísticas do Mercado Doméstico</a>
+		</li>
+	</ul>
+</div>
+
+<!--
+Utilizando Tema Slate, créditos: Jason Costello
+<p class="copyright">Slate theme maintained by <a href="https://github.com/jsncostello">Jason Costello</a></p>
+<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+<p><a href="http://tholman.com/github-corners/">Github corner icon</a> by Tim Holman</p>
+-->
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</footer>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    jQuery('p:contains("[TOC]")').html('').before('<div id="toc"></div>');
+    
+    $(document.links).filter(function() {
+        return this.hostname != window.location.hostname;
+    }).attr('target', '_blank');
+
+    jQuery('#toc').toc({ listType: 'ul', showEffect: 'fadeIn',  minimumHeaders: 0 });
+
+    // remove o 1º item do TOC, que na verdade é o título do cabeçalho do portal
+    jQuery('#toc').find("li").first().remove();
+    jQuery('#toc').find("li").first().remove();
+
+/*    
+   if (window.location.href.indexOf('#') == 0) {
+    let hash = encodeURIComponent(window.location.href.split('#')[1]);
+    let hashTop = document.querySelector(`#${hash}`).offsetTop;
+    window.scrollTop = hashTop;
+   }
+*/
+    anchors.options.placement='right';
+    anchors.add('h1, h2, h3, h4, h5, h6').remove('#site_logo');
+
+});
+</script>
+<script defer async src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
+<script type="text/javascript" src="/public/js/scripts.js"></script>
+</body>
+</html>
+
